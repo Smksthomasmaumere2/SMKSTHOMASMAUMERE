@@ -20,7 +20,7 @@ body {
   font-family: Inter Tight;
 }
 .display-1 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 3.8rem;
   line-height: 1;
 }
@@ -4275,6 +4275,7 @@ a {
 }
 .cid-ueeUFaEZuM .mbr-section-title {
   color: #000000;
+  text-align: center;
 }
 .cid-ueeUFaEZuM .mbr-text,
 .cid-ueeUFaEZuM .mbr-section-btn {
