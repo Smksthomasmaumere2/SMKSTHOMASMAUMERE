@@ -1,0 +1,2 @@
+# SMKSTHOMASMAUMERE
+GitHub Pages
