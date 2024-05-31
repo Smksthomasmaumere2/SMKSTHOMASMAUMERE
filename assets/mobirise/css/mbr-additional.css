@@ -776,7 +776,7 @@ a {
 .cid-uempk9Exeg {
   padding-top: 9rem;
   padding-bottom: 5rem;
-  background-color: #edefeb;
+  background-color: #f7f7f7;
 }
 @media (min-width: 992px) {
   .cid-uempk9Exeg .carousel {
@@ -10283,8 +10283,8 @@ a {
 }
 .cid-udOd7Wdac2 {
   padding-top: 10rem;
-  padding-bottom: 6rem;
-  background-color: #ffffff;
+  padding-bottom: 1rem;
+  background-color: #f7f7f7;
 }
 .cid-udOd7Wdac2 .mbr-fallback-image.disabled {
   display: none;
@@ -10302,9 +10302,9 @@ a {
   flex-direction: row-reverse;
 }
 .cid-udOgSY5R9w {
-  padding-top: 4rem;
+  padding-top: 0rem;
   padding-bottom: 2rem;
-  background-image: url("../../../assets/images/retret-719x503.jpg");
+  background-color: #f7f7f7;
 }
 .cid-udOgSY5R9w .mbr-fallback-image.disabled {
   display: none;
