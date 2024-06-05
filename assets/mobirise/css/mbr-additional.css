@@ -1458,15 +1458,15 @@ a {
     display: none !important;
   }
 }
-.cid-ubU8eRE9BM {
-  padding-top: 4rem;
+.cid-uePQjpPB53 {
+  padding-top: 0rem;
   padding-bottom: 0rem;
   background-color: #ffffff;
 }
-.cid-ubU8eRE9BM .mbr-fallback-image.disabled {
+.cid-uePQjpPB53 .mbr-fallback-image.disabled {
   display: none;
 }
-.cid-ubU8eRE9BM .mbr-fallback-image {
+.cid-uePQjpPB53 .mbr-fallback-image {
   display: block;
   background-size: cover;
   background-position: center center;
@@ -1475,34 +1475,38 @@ a {
   position: absolute;
   top: 0;
 }
+.cid-uePQjpPB53 .content-wrapper {
+  background: #fafafa;
+}
 @media (max-width: 991px) {
-  .cid-ubU8eRE9BM .image-wrapper {
-    margin-bottom: 1rem;
+  .cid-uePQjpPB53 .content-wrapper .image-wrapper {
+    margin-bottom: 2rem;
   }
 }
-.cid-ubU8eRE9BM .row {
-  flex-direction: row-reverse;
-}
-.cid-ubU8eRE9BM .row {
-  align-items: center;
-}
-@media (max-width: 991px) {
-  .cid-ubU8eRE9BM .image-wrapper {
+@media (max-width: 767px) {
+  .cid-uePQjpPB53 .content-wrapper {
     padding: 1rem;
   }
 }
-@media (min-width: 992px) {
-  .cid-ubU8eRE9BM .text-wrapper {
-    padding: 0 2rem;
+@media (min-width: 768px) and (max-width: 991px) {
+  .cid-uePQjpPB53 .content-wrapper {
+    padding: 2rem;
   }
 }
-.cid-ubU8eRE9BM .mbr-section-title {
-  color: #000000;
-  text-align: center;
+@media (min-width: 992px) {
+  .cid-uePQjpPB53 .content-wrapper {
+    padding: 5rem 3rem;
+  }
+  .cid-uePQjpPB53 .content-wrapper .text-wrapper {
+    padding-left: 2rem;
+  }
 }
-.cid-ubU8eRE9BM .mbr-text,
-.cid-ubU8eRE9BM .mbr-section-btn {
-  color: #000000;
+.cid-uePQjpPB53 .image-wrapper img {
+  width: 100%;
+  object-fit: cover;
+}
+.cid-uePQjpPB53 .card-title {
+  text-align: center;
 }
 .cid-udN1O5E9ou {
   padding-top: 6rem;
@@ -1768,59 +1772,6 @@ a {
 }
 .cid-uelp9L11DY H5 {
   color: #000000;
-}
-.cid-ueOppIWh3n {
-  display: flex;
-  background-image: url("../../../assets/images/sekolah-2000x556.jpg");
-}
-.cid-ueOppIWh3n .mbr-overlay {
-  background-color: #000000;
-  opacity: 0.5;
-}
-@media (min-width: 768px) {
-  .cid-ueOppIWh3n {
-    align-items: flex-end;
-  }
-  .cid-ueOppIWh3n .row {
-    justify-content: center;
-  }
-  .cid-ueOppIWh3n .content-wrap {
-    padding: 1rem 3rem;
-  }
-}
-@media (max-width: 991px) and (min-width: 768px) {
-  .cid-ueOppIWh3n .content-wrap {
-    min-width: 50%;
-  }
-}
-@media (max-width: 767px) {
-  .cid-ueOppIWh3n {
-    -webkit-align-items: center;
-    align-items: flex-end;
-  }
-  .cid-ueOppIWh3n .mbr-row {
-    -webkit-justify-content: center;
-    justify-content: center;
-  }
-  .cid-ueOppIWh3n .content-wrap {
-    width: 100%;
-  }
-}
-.cid-ueOppIWh3n .mbr-section-title,
-.cid-ueOppIWh3n .mbr-section-subtitle {
-  text-align: center;
-}
-.cid-ueOppIWh3n .mbr-text,
-.cid-ueOppIWh3n .mbr-section-btn {
-  text-align: center;
-}
-.cid-ueOqRX11Lg {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-  background-color: #edefeb;
-}
-.cid-ueOqRX11Lg .content-head {
-  max-width: 800px;
 }
 .cid-u9QcITnaIY {
   z-index: 1000;
@@ -5312,6 +5263,7 @@ a {
 }
 .cid-ueeSxzgH4I .mbr-section-title {
   color: #000000;
+  text-align: center;
 }
 .cid-ueeSxzgH4I .mbr-text,
 .cid-ueeSxzgH4I .mbr-section-btn {
@@ -6143,7 +6095,7 @@ a {
   }
 }
 .cid-ueeQGbt4ex {
-  padding-top: 6rem;
+  padding-top: 7rem;
   padding-bottom: 6rem;
   background-image: url("../../../assets/images/tata-busana-1280x963.jpg");
 }
@@ -6182,6 +6134,7 @@ a {
 }
 .cid-ueeQGbt4ex .mbr-section-title {
   color: #000000;
+  text-align: center;
 }
 .cid-ueeQGbt4ex .mbr-text,
 .cid-ueeQGbt4ex .mbr-section-btn {
@@ -11700,6 +11653,7 @@ a {
 }
 .cid-uai9UsSPym .mbr-section-title {
   color: #000000;
+  text-align: center;
 }
 .cid-uai9UsSPym .mbr-text,
 .cid-uai9UsSPym .mbr-section-btn {
