@@ -72,101 +72,31 @@ b=document.querySelector(".navbar-collapse");if(a&&!a.classList.contains("opacit
 // 
 
 window.onload = function() {
-    // Delete element with id="footer6-58"
-    var footer = document.getElementById('footer6-58');
-    if (footer) {
-        footer.remove();
-    }
+    // delete id="footer6-58" and last section
+document.getElementById('footer04-6u').remove();
+function deleteLastSection() {
+    var sections = document.getElementsByTagName('section');
+    sections[sections.length - 1].remove();
+}
+deleteLastSection();
 
-    // Function to delete the last section element
-    function deleteLastSection() {
-        var sections = document.getElementsByTagName('section');
-        if (sections.length > 0) {
-            sections[sections.length - 1].remove();
-        }
-    }
-    deleteLastSection();
+// Create a new div element with id="my-footer"
+var myFooterDiv = document.createElement('div');
+myFooterDiv.id = 'my-footer';
 
-    // Create a new div element with id="my-footer"
-    var myFooterDiv = document.createElement('div');
-    myFooterDiv.id = 'my-footer';
+// Set the inner HTML of the new div to the provided HTML content
+myFooterDiv.innerHTML = `
+    <footer class="d-flex align-items-center justify-content-center py-3"
+        style="background-color: rgb(48, 48, 48); color: white;">
+        <img src="assets/images/logo-smks-st-thomas-maumere-removebg-preview-108x96.png" alt="Logo" class="me-2"
+            style="width: 50px;">
+        <p class="mbr-text mbr-fonts-style display-7 mb-0">© Copyright 2024 - Maria Natalia Jesila
+            Pare-Informatika Universitas Respati Yogyakarta
+        </p>
+    </footer>
+`;
 
-    // Set the inner HTML of the new div to the provided HTML content
-    myFooterDiv.innerHTML = `
-        <section data-bs-version="5.1" class="footer6 cid-uelp9L11DY" once="footers" id="footer6-58">
-            <div class="container">
-                <div class="row content mbr-white">
-                    <div class="col-12 col-md-3 mbr-fonts-style display-4">
-                        <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7">
-                            <strong>ALAMAT :</strong>
-                        </h5>
-                        <p class="mbr-text mbr-fonts-style display-7">Jl. Wairklau, Kota Uneng, Kec. Alok, Kabupaten Sikka,
-                            Nusa Tenggara Timur</p> <br>
-                        <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 mt-4 display-7">
-                            <strong>Kontak :</strong>
-                        </h5>
-                        <p class="mbr-text mbr-fonts-style mb-4 display-4"><strong>
-                                Email:</strong> smksthomasmaumere@gmail.com<br><br><strong>Nomor Telepon
-                                :</strong><br>0821-4421-1825 (Pak Anis)<br></p>
-                    </div>
-                    <div class="col-12 col-md-3 mbr-fonts-style display-7">
-                        <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7">
-                            <strong>JAM KERJA :</strong>
-                        </h5>
-                        <ul class="list mbr-fonts-style mb-4 display-4">
-                            <li class="mbr-text item-wrap">07.00 am - 13.00 pm</li>
-                        </ul>
-                        <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 mt-5 display-7"></h5>
-                        <p class="mbr-text mbr-fonts-style mb-4 display-7"></p>
-                    </div>
-                    <div class="col-12 col-md-6">
-                        <div class="google-map">
-                            <iframe frameborder="0" style="border:0"
-                                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAtXm0x23nRCgazjDV2Kl3GTHRP411ougQ&amp;q=https://www.google.com/maps/place/SMK+St.+Thomas+Maumere/@-8.6226847,122.2032979,17z/data=!3m1!4b1!4m6!3m5!1s0x2dad1a25206ae8cd:0x59520fb6465bc6e8!8m2!3d-8.62269!4d122.2058728!16s%2Fg%2F11fz20gdhr?entry=ttu"
-                                allowfullscreen=""></iframe>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="social-list align-left">
-                            <div class="soc-item">
-                                <a href="https://wa.me/6282144211825">
-                                    <span class="mbr-iconfont mbr-iconfont-social socicon-whatsapp socicon"
-                                        style="color: rgb(0, 0, 0); fill: rgb(0, 0, 0);"></span>
-                                </a>
-                            </div>
-                            <div class="soc-item">
-                                <a href="https://www.facebook.com/profile.php?id=61558256811629" target="_blank">
-                                    <span class="mbr-iconfont mbr-iconfont-social socicon-facebook socicon"
-                                        style="color: rgb(0, 0, 0); fill: rgb(0, 0, 0);"></span>
-                                </a>
-                            </div>
-                            <div class="soc-item">
-                                <a href="https://www.youtube.com/@smksst.thomasmaumere6699" target="_blank">
-                                    <span class="mbr-iconfont mbr-iconfont-social socicon-youtube socicon"
-                                        style="color: rgb(0, 0, 0); fill: rgb(0, 0, 0);"></span>
-                                </a>
-                            </div>
-                            <div class="soc-item">
-                                <a href="https://www.instagram.com/smk_st.thomas_maumere/" target="_blank">
-                                    <span class="mbr-iconfont mbr-iconfont-social socicon-instagram socicon"
-                                        style="color: rgb(0, 0, 0); fill: rgb(0, 0, 0);"></span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <footer class="d-flex align-items-center justify-content-center py-3"
-            style="background-color: rgb(48, 48, 48); color: white;">
-            <img src="assets/images/logo-smks-st-thomas-maumere-removebg-preview-108x96.png" alt="Logo" class="me-2"
-                style="width: 50px;">
-            <p class="mbr-text mbr-fonts-style display-7 mb-0">© Copyright 2024 - Maria Natalia Jesila
-                Pare-Informatika Universitas Respati Yogyakarta
-            </p>
-        </footer>
-    `;
+// Append the new div to the end of the body
+document.body.appendChild(myFooterDiv);
 
-    // Append the new div to the end of the body
-    document.body.appendChild(myFooterDiv);
 };
