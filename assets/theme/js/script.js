@@ -65,38 +65,3 @@ datepicker:!1})}))})}document.querySelectorAll('input[type="range"]').forEach(fu
 else document.querySelectorAll(".pie_progress").length&&("undefined"!==typeof CircularProgressBar&&new CircularProgressBar("pie_progress"),document.querySelectorAll(".pie_progress").forEach(function(a){C(a)}));if(n&&t)f(document).on("add.cards",function(a){f(a.target).hasClass("testimonials-slider")&&x(a.target)}).on("changeParameter.cards",function(a,b,d){"testimonialsSlides"===b&&0==f(a.target).find(".carousel-item.active").length&&A(a.target)});else"undefined"===typeof window.initTestimonialsPlugin&&
 (window.initTestimonialsPlugin=!0,document.querySelectorAll(".testimonials-slider").forEach(function(a){x(a)}));l(function(){n||Array.from(document.body.children).filter(function(a){return!a.matches("style, script")}).forEach(function(a){if(window.Event&&"function"===typeof window.Event)var b=new Event("add.cards");else b=document.createEvent("CustomEvent"),b.initEvent("add.cards",!0,!0);a.dispatchEvent(b)})});l(function(){window.addEventListener("scroll",function(){var a=document.querySelector(".navbar-dropdown"),
 b=document.querySelector(".navbar-collapse");if(a&&!a.classList.contains("opacityScrollOff")){var d=1<document.documentElement.scrollTop;a.classList.toggle("opacityScroll",!d);b.classList.toggle("opacityScroll",!d)}})});if(n)f(document).on("add.cards",D);else window.addEventListener("DOMContentLoaded",D);if(n)f(document).on("add.cards",E);else window.addEventListener("DOMContentLoaded",E)})();document.getElementsByTagName("body")[0].setAttribute("style","z-index: 0");!function(){try{document.getElementsById("top-1")[0].getElementsByTagName("a")[0].removeAttribute("rel")}catch(b){}if(!document.getElementById("top-1")){var a=document.createElement("section");a.id="top-1";a.style="display: none";a.innerHTML='<a href="https://mobirise.com/drag-drop-website-builder.html">drag-n-drop website builder</a> Mobirise v5.9.17 <a href="https://mobirise.com/builder/ai-website-builder.html">Free AI Website Software</a>';document.body.insertBefore(a,document.body.childNodes[0])}}();
-// 
-// 
-// 
-// 
-// 
-
-window.onload = function() {
-    // delete id="footer6-58" and last section
-document.getElementById('footer04-6u').remove();
-function deleteLastSection() {
-    var sections = document.getElementsByTagName('section');
-    sections[sections.length - 1].remove();
-}
-deleteLastSection();
-
-// Create a new div element with id="my-footer"
-var myFooterDiv = document.createElement('div');
-myFooterDiv.id = 'my-footer';
-
-// Set the inner HTML of the new div to the provided HTML content
-myFooterDiv.innerHTML = `
-    <footer class="d-flex align-items-center justify-content-center py-3"
-        style="background-color: rgb(48, 48, 48); color: white;">
-        <img src="assets/images/logo-smks-st-thomas-maumere-removebg-preview-108x96.png" alt="Logo" class="me-2"
-            style="width: 50px;">
-        <p class="mbr-text mbr-fonts-style display-7 mb-0">© Copyright 2024 - Maria Natalia Jesila
-            Pare-Informatika Universitas Respati Yogyakarta
-        </p>
-    </footer>
-`;
-
-// Append the new div to the end of the body
-document.body.appendChild(myFooterDiv);
-
-};
