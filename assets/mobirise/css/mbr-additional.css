@@ -10354,7 +10354,7 @@ a {
 }
 .cid-ueKRq1wiiO {
   padding-top: 8rem;
-  padding-bottom: 0rem;
+  padding-bottom: 5rem;
   background: #fafafa;
 }
 .cid-ueKRq1wiiO .mbr-fallback-image.disabled {
@@ -10459,6 +10459,11 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+@media (max-width: 768px) {
+  .cid-ueKRq1wiiO .embla__button {
+    display: none;
+  }
 }
 .cid-ueKRq1wiiO .embla__button:disabled {
   cursor: default;
